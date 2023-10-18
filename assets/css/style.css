@@ -1,7 +1,70 @@
+body{
+font-family: "Raleway", sans-serif;
+color: darkcyan;
+text-align: justify;
+align-items: center;
+}
 
-body {
-    background-color: #e5e5f7;
-    opacity: 0.3;
-    background-size: 11px 11px;
-    background-image: repeating-linear-gradient(45deg, #8d8d8d 0, #8d8d8d 1.1px, #e5e5f7 0, #e5e5f7 50%);
+.bg-custom-success{
+background-color: red;
+}
+
+.profile{
+padding: 0;
+margin-top: 1rem;
+}
+
+.presentation{
+display: grid;
+grid-template-columns: 2fr 5fr;
+background-color: lightskyblue;
+color: lavender;
+}
+
+.line{
+width: 580px;
+height: 0.5rem;
+margin-top: 2rem;
+background: #fcfcfc;
+}
+
+.nombre{
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+letter-spacing: 0.3rem;
+font-weight: 700;
+margin-top: 2rem;
+}
+
+.description{
+letter-spacing: 0.3rem;
+margin-top: 1.9rem;
+font-size: 1.5rem;
+}
+
+.image{
+margin-top: 2rem;
+margin-bottom: 2rem;
+margin-left: 1.9rem;
+width: 130px;
+height: 130px;
+border: 3px solid #696969;
+border-radius: 5rem;
+}
+
+.expirence{
+background-color: #696969;
+padding: 0.8rem;
+color: #000;
+text-transform: uppercase;
+}
+
+.expirence-conteiner{
+margin-right: 20px;
+display: grid;
+grid-template-columns: 1fr 2fr 3fr;
+}
+
+.head {
+font-size: bold;
 }
