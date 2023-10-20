@@ -1,34 +1,38 @@
+:root{
+    --letra: #ffffff;
+    --letra2: #212121;
+    --h3: #ffc107;
+    --h4: #550101;
+    --gris: #757575;
+    --grisclaro: #dfe9f3;
+}
+
 body{
 font-family: "Raleway", sans-serif;
-color: darkcyan;
+background-color: var(--letra2);
+color: var(--letra2);
 text-align: justify;
 align-items: center;
 }
 
+.icons{
+font-family: 'Raleway', sans-serif;
+text-transform: lowercase;
+list-style: none;
+}
+
 .bg-custom-success{
-background-color: red;
-}
-
-.profile{
-padding: 0;
-margin-top: 1rem;
-}
-
-.presentation{
-display: grid;
-grid-template-columns: 2fr 5fr;
-background-color: lightskyblue;
-color: lavender;
+background-color: var(--grisclaro);
 }
 
 .line{
-width: 580px;
+display: flex;
 height: 0.5rem;
 margin-top: 2rem;
-background: #fcfcfc;
+background: var(--h4);
 }
 
-.nombre{
+.name{
 font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 letter-spacing: 0.3rem;
@@ -37,7 +41,7 @@ margin-top: 2rem;
 }
 
 .description{
-letter-spacing: 0.3rem;
+letter-spacing: 0.2rem;
 margin-top: 1.9rem;
 font-size: 1.5rem;
 }
@@ -45,26 +49,20 @@ font-size: 1.5rem;
 .image{
 margin-top: 2rem;
 margin-bottom: 2rem;
-margin-left: 1.9rem;
-width: 130px;
-height: 130px;
-border: 3px solid #696969;
-border-radius: 5rem;
+width: 200px;
+height: 200px;
+border: 3px solid var(--h3);
+border-radius: 2rem;
 }
 
 .expirence{
-background-color: #696969;
+background-color: var(--gris);
 padding: 0.8rem;
-color: #000;
+color: var(--letra);
 text-transform: uppercase;
 }
 
-.expirence-conteiner{
-margin-right: 20px;
-display: grid;
-grid-template-columns: 1fr 2fr 3fr;
-}
-
-.head {
-font-size: bold;
+span{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
 }
