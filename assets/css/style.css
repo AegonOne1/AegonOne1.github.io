@@ -1,24 +1,18 @@
 :root{
     --letra: #ffffff;
     --letra2: #212121;
-    --h3: #ffc107;
-    --h4: #550101;
+    --borde: #ffc107;
+    --linea: #550101;
     --gris: #757575;
     --grisclaro: #dfe9f3;
 }
 
 body{
 font-family: "Raleway", sans-serif;
-background-color: var(--letra2);
+background-image: url(../imgs/bg-body-img.jpg);
 color: var(--letra2);
 text-align: justify;
 align-items: center;
-}
-
-.icons{
-font-family: 'Raleway', sans-serif;
-text-transform: lowercase;
-list-style: none;
 }
 
 .bg-custom-success{
@@ -29,13 +23,13 @@ background-color: var(--grisclaro);
 display: flex;
 height: 0.5rem;
 margin-top: 2rem;
-background: var(--h4);
+background: var(--linea);
 }
 
 .name{
 font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
-letter-spacing: 0.3rem;
+letter-spacing: 0.1rem;
 font-weight: 700;
 margin-top: 2rem;
 }
@@ -51,7 +45,7 @@ margin-top: 2rem;
 margin-bottom: 2rem;
 width: 200px;
 height: 200px;
-border: 3px solid var(--h3);
+border: 3px solid var(--borde);
 border-radius: 2rem;
 }
 
@@ -62,7 +56,15 @@ color: var(--letra);
 text-transform: uppercase;
 }
 
-span{
-font-family: 'Roboto', sans-serif;
+.icons{
+
+text-transform: lowercase;
+list-style: none;
+}
+    
+.format{
+font-family: 'Raleway', sans-serif;
 font-weight: 400;
+text-transform: none;
+padding: 10px;
 }
